@@ -5,6 +5,7 @@ Pasos para la el despliegue de la aplicación
 1.Descargar XAMPP desde <a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download">desde este link</a>
 
 2.Instalar con <a href="https://www.wikihow.com/Install-XAMPP-for-Windows">esta guía</a>, una vez instalado abrir el "XAMPP Control Panel" y verificar que el servicio de Apache este en color verde
+
 ![Alt text](./public/install/xampp_control_panel.png)
 
 3.Habilitar la extension PDO de Postgre para PHP, clic en el boton Config y seleccionar PHP (php.ini), en el archivo buscar "extension=pdo_pgsql" y "extension=pgsql" y quitar ;
@@ -18,9 +19,28 @@ Pasos para la el despliegue de la aplicación
 
 ![Alt text](./public/install/config4.png)
 
-6.Descargamos Node JS desde <a href="https://nodejs.org/es/download">este enlace</a>
+6.Descargamos Node JS desde <a href="https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi">este enlace</a>
 
 7.Instalamos desde <a href="https://www.wikihow.com/Install-Node.Js-on-Windows">esta guía</a>
 
-8.Descargamos el proyecto desde
+8.Descargamos el proyecto desde la parte superior o <a href="https://github.com/luismoya91/prueba_ITBF/archive/refs/heads/main.zip"> aquí </a>
 
+9.Una vez descargado el proyecto copiamos la carpeta descomprimida en "C:\xampp\htdocs", ingresamos a la carpeta y creamos una copia del archivo .env.example en .env, cambiando la variable "DB_PASSWORD" por la contraseña que asigno en el paso 5
+
+![Alt text](./public/install/config5.png)
+
+10.Ejecutamos el comando <italic> php .\artisan migrate </italic>, si es satisfactorio muestra un mensaje verde.
+
+11.Ejecutamos el comando <italic> npm install </italic> y el comando <italic> npm run dev </italic>
+
+12.Ejecutamos el comando <italic> php .\artisan serve </italic>
+
+![Alt text](./public/install/config6.png)
+
+13.Ejecutamos el comando <italic> npm run watch </italic>
+
+![Alt text](./public/install/config7.png)
+
+14.Ingresamos a http://127.0.0.1:8000/
+
+![Alt text](./public/install/config8.png)
