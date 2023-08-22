@@ -44,3 +44,9 @@ Pasos para la el despliegue de la aplicación
 14.Ingresamos a http://127.0.0.1:8000/
 
 ![Alt text](./public/install/config8.png)
+
+
+Anexos
+
+- Se agrega archivo "decameron.sql" con script de la creacion de la base de datos
+- Se agrea archivo  "Prueba Decameron.postman_collection.json" con la collecion de endpoints del back-end para probar por postman

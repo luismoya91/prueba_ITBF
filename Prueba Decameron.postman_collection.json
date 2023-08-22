@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "b881af27-2a0d-446f-aa88-4186cc99d20f",
+		"name": "Prueba Decameron",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27790332"
+	},
+	"item": [
+		{
+			"name": "Consulta Hoteles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/hotels"
+			},
+			"response": []
+		},
+		{
+			"name": "Creacion Hotel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "DECAMERON CARTAGENA",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "CALLE 23 58-25",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "CARTAGENA",
+							"type": "text"
+						},
+						{
+							"key": "doc_number",
+							"value": "12345678-9",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:8000/api/hotels"
+			},
+			"response": []
+		},
+		{
+			"name": "Creacion Habitaciones",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_hotel\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/rooms"
+			},
+			"response": []
+		}
+	]
+}
