@@ -41,18 +41,19 @@ Pasos para la el despliegue de la aplicación
 ![Alt text](./public/install/config5.png)
 
 13.Abrimos la terminal, vamos a la direccion del proyecto, y ejecutamos los comandos:
-    a.<italic> composer install </italic>,  si es satisfactorio muestra un mensaje verde. Si no se encuentra el comando "php", reiniciar el equipo
-    b.<italic> npm install </italic>
 
-    ![Alt text](./public/install/config9.png)
+a.<italic> composer install </italic>,  si es satisfactorio muestra un mensaje verde. Si no se encuentra el comando "php", reiniciar el equipo
+b.<italic> npm install </italic>
 
-    c.<italic> npm run dev </italic>
+![Alt text](./public/install/config9.png)
 
-    ![Alt text](./public/install/config7.png)
+c.<italic> npm run dev </italic>
 
-    d.<italic> php .\artisan serve </italic>
+![Alt text](./public/install/config7.png)
 
-    ![Alt text](./public/install/config6.png)
+d.<italic> php .\artisan serve </italic>
+
+![Alt text](./public/install/config6.png)
 
 
 
