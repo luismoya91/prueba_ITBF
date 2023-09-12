@@ -46,7 +46,7 @@ a.  <italic> composer install </italic>
 
 Si es satisfactorio muestra un mensaje verde. Si no se encuentra el comando "php", reiniciar el equipo.
 
-![Alt text](./public/install/config13.png)
+![Alt text](./public/install/Config13.png)
 
 b.  <italic> npm install </italic>
 
